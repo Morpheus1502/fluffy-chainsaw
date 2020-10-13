@@ -1,0 +1,10 @@
+#first list
+list1 = [12,-7,5,64,-14]
+x = sorted(list1)
+z = x[2:]
+w = [str(k) for k in z]
+print(','.join(w))
+#second list
+list2 = [12, 14, -95, 3]
+y = sorted(list2)
+print(y[1:])
