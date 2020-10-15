@@ -1,0 +1,13 @@
+#Assigning elements to different lists
+list = ['Apple', 'Orange', 'Peach']
+list.append('Pineapple')
+print(list)
+
+#Accessing elements from a tuple
+tup = (1, 2, 3, 4, 5, 6, 7, 8)
+print(tup[0:5])
+
+#Deleting different dictionary elements
+dict = {'reynolds':'trimax', 'parker':'vector', 'pilot':'friction'}
+dict.pop('pilot')
+print(dict)
